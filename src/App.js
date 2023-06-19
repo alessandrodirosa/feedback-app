@@ -9,7 +9,8 @@ function App() {
     const loading = false;
     const showComments = true;
 
-    const commentBlock = <div className='comments'>
+    const commentBlock =
+    <div className='comments'>
         <h3>Comments ({comments.length})</h3>
         <ul>
             {comments.map((comment, index) => {
