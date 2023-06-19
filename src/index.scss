@@ -1,7 +1,54 @@
-$background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+$background-color: #080841;
 $text-color: white;
+$background-review-number-color: #ff6e95;
 
 body {
   background-color: $background-color;
   color: $text-color;
+  font-family: Nunito, sans-serif;
+  margin: 0;
+
+  .header-container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 4px 11px 0;
+  }
+
+  .card-container{
+    position: relative;
+    margin: 32px 48px 0;
+    background-color: white;
+    color: $background-color;
+    border-radius: 20px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    flex-direction: column;
+    padding: 16px;
+
+
+    &__number-display{
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      margin: 0;
+      color: white;
+      background-color: $background-review-number-color;
+      border-radius: 24px;
+      top: -8px;
+      left: -8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid;
+    }
+
+    &__text-display{
+
+    }
+  }
 }
