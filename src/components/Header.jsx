@@ -16,7 +16,7 @@ export const Header = ({text, bgColor, textColor}) => {
 }
 
 Header.defaultProps = {
-    text: 'Fallback Title',
+    text: 'Feedback APP',
     bgColor: 'rgba(0,0,0,.4)',
     textColor: '#ff6e95'
 };
