@@ -6,7 +6,7 @@ export const FeedbackData = [
     },
     {
         id: 2,
-        rating: 8,
+        rating: 7,
         text: 'Good'
     },
     {

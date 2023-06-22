@@ -16,58 +16,130 @@ body {
     box-shadow: 5px 4px 11px 0;
   }
 
-  .card-container {
-    position: relative;
-    margin: 32px 48px 0;
-    background-color: white;
-    color: $background-color;
-    border-radius: 20px;
-    min-height: 80px;
+  .container{
+    margin: 0 32px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid;
     flex-direction: column;
-    padding: 16px;
 
-    &.reverse {
-      background-color: rgba(0, 0, 0, .4);
-    }
-
-    .close {
-      position: absolute;
-      top: 4px;
-      right: 8px;
-      background-color: transparent;
-      border: none;
-      margin: 0;
-      padding: 0;
-      text-align: inherit;
-      font: inherit;
-      border-radius: 0;
-      appearance: none;
-      cursor: pointer;
-    }
-
-
-    &__number-display {
-      position: absolute;
-      width: 40px;
-      height: 40px;
-      margin: 0;
-      color: white;
-      background-color: $background-review-number-color;
-      border-radius: 24px;
-      top: -8px;
-      left: -8px;
+    .feedback-stats-container{
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+    }
+
+    .card-container{
+      position: relative;
+      margin: 32px 0 0;
+      background-color: white;
+      color: $background-color;
+      border-radius: 20px;
+      min-height: 80px;
+      display: flex;
+      justify-content: flex-start;
       align-items: center;
       border: 1px solid;
+      flex-direction: column;
+      padding: 16px;
+      height: 25vh;
+
+      form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        flex-grow: 1;
+
+        h2{
+          align-self: center;
+          margin: 0;
+        }
+
+        .input-group{
+          display: flex;
+          column-gap: 8px;
+          flex-basis: 56px;
+
+          input[type="text"]{
+            width: 100%;
+            border-radius: 5px;
+          }
+
+          .btn{
+            width: 100px;
+            border-radius: 15px;
+            color: white;
+
+            &-primary{
+              background-color: $background-color;
+            }
+
+            &-secondary{
+              background-color: $background-review-number-color;
+            }
+
+            &:disabled{
+              opacity: .4;
+            }
+          }
+        }
+
+        .message{
+          align-self: center;
+        }
+      }
     }
 
-    &__text-display {
+    .feedback-list{
+      .card-container {
+        position: relative;
+        margin: 32px 0 0;
+        background-color: white;
+        color: $background-color;
+        border-radius: 20px;
+        min-height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        flex-direction: column;
+        padding: 16px;
+        height: 5vh;
 
+        &.reverse {
+          background-color: rgba(0, 0, 0, .4);
+        }
+
+        .close {
+          position: absolute;
+          top: 4px;
+          right: 8px;
+          background-color: transparent;
+          border: none;
+          margin: 0;
+          padding: 0;
+          text-align: inherit;
+          font: inherit;
+          border-radius: 0;
+          appearance: none;
+          cursor: pointer;
+        }
+
+
+        &__number-display {
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          margin: 0;
+          color: white;
+          background-color: $background-review-number-color;
+          border-radius: 24px;
+          top: -8px;
+          left: -8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid;
+        }
+      }
     }
   }
 }

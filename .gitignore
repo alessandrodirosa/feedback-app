@@ -30,3 +30,4 @@ yarn-error.log*
 /.idea/inspectionProfiles/Project_Default.xml
 /.idea/rcb-settings.xml
 /.idea/vcs.xml
+/.idea/sonarlint*
