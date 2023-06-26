@@ -58,7 +58,9 @@ body {
           margin: 0;
           display: flex;
           justify-content: center;
+          row-gap: 16px;
           column-gap: 16px;
+          flex-wrap: wrap;
 
           li{
 
@@ -185,6 +187,11 @@ body {
           border: 1px solid;
         }
       }
+    }
+
+    .about-link{
+      margin-top: 16px;
+      text-align: end;
     }
   }
 }
