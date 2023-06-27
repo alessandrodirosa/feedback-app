@@ -1,5 +1,7 @@
-import PropTypes from "prop-types";
-export const FeedbackStats = ({feedback}) => {
+import {useContext} from "react";
+import {FeedbackContext} from "../context/FeedbackContext";
+export const FeedbackStats = () => {
+    const {feedback} = useContext(FeedbackContext);
     //Calculate feedback average
     let average = (feedback.reduce((accumulator, currentValue) => {
         return accumulator + currentValue.rating;
@@ -12,8 +14,4 @@ export const FeedbackStats = ({feedback}) => {
             <h4>Average Rating: {average ? average : 0}</h4>
         </div>
     )
-}
-
-FeedbackStats.propTypes = {
-    feedback : PropTypes.array.isRequired
 }
