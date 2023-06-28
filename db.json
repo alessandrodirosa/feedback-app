@@ -1,0 +1,19 @@
+{
+  "feedback": [
+    {
+      "id": 1,
+      "rating": 6,
+      "text": "Not so bad from server"
+    },
+    {
+      "id": 2,
+      "rating": 7,
+      "text": "Good from server"
+    },
+    {
+      "id": 3,
+      "rating": 10,
+      "text": "Excellent! from server"
+    }
+  ]
+}
