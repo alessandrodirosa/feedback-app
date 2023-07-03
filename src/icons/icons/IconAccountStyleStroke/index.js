@@ -1,0 +1,1 @@
+export { IconAccountStyleStroke } from "./IconAccountStyleStroke";

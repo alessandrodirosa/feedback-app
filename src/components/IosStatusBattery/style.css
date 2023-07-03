@@ -1,0 +1,125 @@
+.ios-status-battery {
+  height: 14px;
+  position: relative;
+  width: 28px;
+}
+
+.ios-status-battery .vec-2 {
+  height: 14px;
+}
+
+.ios-status-battery .overlap-group {
+  position: relative;
+}
+
+.ios-status-battery .battery-fill {
+  height: 10px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+}
+
+.ios-status-battery .battery-frame {
+  position: absolute;
+}
+
+.ios-status-battery .battery-frame-2 {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.ios-status-battery .changing {
+  height: 14px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 9px;
+}
+
+.ios-status-battery .battery-fill-2 {
+  background-color: #ff3b30;
+  border-radius: 1.33px 0px 0px 1.33px;
+  height: 10px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.ios-status-battery .low {
+  background-size: 100% 100%;
+}
+
+.ios-status-battery .low.charge-true {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/229c6a359aedd442784950154788f0b4/img/battery-frame-3.svg);
+  position: relative;
+}
+
+.ios-status-battery .low.charge-false {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/229c6a359aedd442784950154788f0b4/img/battery-frame-17.svg);
+}
+
+.ios-status-battery .vec-2.low .overlap-group {
+  background-color: #ff3b30;
+  border-radius: 1.33px 0px 0px 1.33px;
+  height: 10px;
+  left: 2px;
+  top: 2px;
+  width: 4px;
+}
+
+.ios-status-battery .vec-2.high .overlap-group {
+  height: 14px;
+  width: 28px;
+}
+
+.ios-status-battery .vec-2.mid .overlap-group {
+  height: 14px;
+  width: 28px;
+}
+
+.ios-status-battery .vec-2.low .battery-fill {
+  background-color: #111111;
+  border-radius: 1.33px;
+  width: 21px;
+}
+
+.ios-status-battery .vec-2.high .battery-fill {
+  background-color: #111111;
+  border-radius: 1.33px;
+  width: 21px;
+}
+
+.ios-status-battery .vec-2.mid .battery-fill {
+  background-color: #ffcc0a;
+  border-radius: 1.33px 0px 0px 1.33px;
+  width: 11px;
+}
+
+.ios-status-battery .vec-2.charge-false .battery-frame {
+  height: 14px;
+  left: 0;
+  top: 0;
+  width: 28px;
+}
+
+.ios-status-battery .vec-2.charge-true .battery-frame {
+  height: 10px;
+  left: 2px;
+  top: 2px;
+}
+
+.ios-status-battery .vec-2.high.charge-true .battery-frame {
+  width: 21px;
+}
+
+.ios-status-battery .vec-2.mid.charge-true .battery-frame {
+  width: 10px;
+}
+
+.ios-status-battery .vec-2.low.charge-true .battery-frame {
+  width: 21px;
+}

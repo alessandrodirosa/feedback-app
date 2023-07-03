@@ -1,0 +1,1 @@
+export { IosStatusBattery } from "./IosStatusBattery";

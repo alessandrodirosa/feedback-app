@@ -1,0 +1,1 @@
+export { IconCartStroke } from "./IconCartStroke";

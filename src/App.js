@@ -35,19 +35,17 @@ function App() {
     )
 }
 
-export default App;
- */
+*/
 
 import React from "react";
-import { HeaderMobile } from "./HeaderMobile";
-import { IosStatusBar } from "./IosStatusBar";
-import { LinkText } from "./LinkText";
-import { PrimaryText } from "./PrimaryText";
-import { SecondaryText } from "./SecondaryText";
-import { SizeSmStateWrapper } from "./SizeSmStateWrapper";
-import { StateDefaultSizeWrapper } from "./StateDefaultSizeWrapper";
-import { WardrobeOutline } from "./WardrobeOutline";
-import "./style.css";
+import { HeaderMobile } from "./components/HeaderMobile";
+import { IosStatusBar } from "./components/IosStatusBar";
+import { LinkText } from "./components/LinkText";
+import { PrimaryText } from "./components/PrimaryText";
+import { SecondaryText } from "./components/SecondaryText";
+import { StateDefaultSizeWrapper } from "./components/StateDefaultSizeWrapper";
+import { WardrobeOutline } from "./icons/WardrobeOutline";
+import "./index.scss";
 
 export const HpMenLogged = () => {
     return (
@@ -224,13 +222,6 @@ export const HpMenLogged = () => {
                             <p className="text-wrapper-11">
                                 80 characters maximum Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                             </p>
-                            <SizeSmStateWrapper
-                                className="primary-text-instance"
-                                icon={false}
-                                size="sm"
-                                state="default"
-                                text="DISCOVER"
-                            />
                         </div>
                     </div>
                 </div>
@@ -269,3 +260,5 @@ export const HpMenLogged = () => {
         </div>
     );
 };
+
+export default HpMenLogged;

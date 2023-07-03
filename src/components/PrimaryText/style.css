@@ -1,0 +1,509 @@
+.primary-text {
+  height: 48px;
+}
+
+.primary-text .acquista-i {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.primary-text .icone-base-2 {
+  height: 14px;
+  min-width: 14px;
+  position: relative;
+}
+
+.primary-text .BUTTON {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary-text.size-11-md {
+  width: 272px;
+}
+
+.primary-text.size-11-sm {
+  position: relative;
+  width: 176px;
+}
+
+.primary-text.state-7-pressed {
+  background-color: #262626;
+}
+
+.primary-text.size-11-xl {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.primary-text.state-7-default {
+  background-color: #262626;
+}
+
+.primary-text.size-11-primary {
+  width: 343px;
+}
+
+.primary-text.icon-3-left {
+  padding: 8px 16px;
+}
+
+.primary-text.state-7-text {
+  background-color: #262626;
+}
+
+.primary-text.icon-3-right {
+  padding: 8px 16px;
+}
+
+.primary-text.state-7-hover.size-11-xl {
+  background-color: #56575b;
+}
+
+.primary-text.icon-3-right.size-11-xl {
+  width: 343px;
+}
+
+.primary-text.icon-3-left.size-11-xl {
+  width: 344px;
+}
+
+.primary-text.icon-3-left.size-11-sm {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.primary-text.icon-3-left.size-11-md {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.primary-text.icon-3-right.size-11-md {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.primary-text.icon-3-xl.size-11-xl {
+  width: 343px;
+}
+
+.primary-text.state-7-hover.size-11-primary {
+  background-color: #262626;
+}
+
+.primary-text.icon-3-xl.state-7-disabled {
+  background-color: #262626;
+}
+
+.primary-text.size-11-xl.icon-3-no {
+  width: 343px;
+}
+
+.primary-text.icon-3-left.state-7-disabled {
+  background-color: #d2d2d2;
+}
+
+.primary-text.size-11-md.icon-3-no {
+  background-color: #262626;
+}
+
+.primary-text.icon-3-right.state-7-disabled {
+  background-color: #d2d2d2;
+}
+
+.primary-text.state-7-hover.size-11-sm {
+  background-color: #56575b;
+}
+
+.primary-text.size-11-primary.icon-3-no {
+  background-color: #262626;
+}
+
+.primary-text.icon-3-right.size-11-sm {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.primary-text.icon-3-xl.size-11-md {
+  background-color: #262626;
+}
+
+.primary-text.icon-3-xl.size-11-primary {
+  background-color: #262626;
+}
+
+.primary-text.size-11-xl.state-7-disabled.icon-3-no {
+  background-color: #d2d2d2;
+  flex-direction: column;
+}
+
+.primary-text.size-11-sm.state-7-default.icon-3-no {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 8px 16px;
+}
+
+.primary-text.state-7-hover.size-11-xl.icon-3-no {
+  flex-direction: column;
+}
+
+.primary-text.state-7-pressed.size-11-xl.icon-3-no {
+  flex-direction: column;
+}
+
+.primary-text.state-7-default.size-11-xl.icon-3-no {
+  padding: 0px 16px;
+}
+
+.primary-text.icon-3-left.size-11-md.state-7-hover {
+  background-color: #56575b;
+}
+
+.primary-text.icon-3-right.size-11-md.state-7-hover {
+  background-color: #56575b;
+}
+
+.primary-text.size-11-sm.state-7-disabled.icon-3-no {
+  background-color: #d2d2d2;
+}
+
+.primary-text.state-7-default.size-11-md.icon-3-no {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.primary-text.size-11-md .primary_text-2 {
+  height: 48px;
+  position: relative;
+  width: 343px;
+}
+
+.primary-text.size-11-sm .primary_text-2 {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.primary-text.size-11-xl .primary_text-2 {
+  height: 48px;
+  position: relative;
+  width: 343px;
+}
+
+.primary-text.state-7-default .primary_text-2 {
+  position: relative;
+}
+
+.primary-text.size-11-primary .primary_text-2 {
+  position: relative;
+  width: 343px;
+}
+
+.primary-text.state-7-text .primary_text-2 {
+  position: relative;
+  width: 343px;
+}
+
+.primary-text.size-11-sm.state-7-default .primary_text-2 {
+  color: #ffffff;
+  width: fit-content;
+}
+
+.primary-text.state-7-pressed.size-11-sm .primary_text-2 {
+  color: #ffffff;
+  left: 20px;
+  position: absolute;
+  top: 15px;
+  width: 136px;
+}
+
+.primary-text.state-7-hover.size-11-xl .primary_text-2 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 16px;
+}
+
+.primary-text.size-11-xl.state-7-disabled .primary_text-2 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 16px;
+}
+
+.primary-text.size-11-sm.state-7-disabled .primary_text-2 {
+  color: #989898;
+  left: 20px;
+  position: absolute;
+  top: 15px;
+  width: 136px;
+}
+
+.primary-text.size-11-md.state-7-disabled .primary_text-2 {
+  background-color: #d2d2d2;
+}
+
+.primary-text.state-7-hover.size-11-md .primary_text-2 {
+  overflow: hidden;
+}
+
+.primary-text.state-7-pressed.size-11-md .primary_text-2 {
+  background-color: #262626;
+}
+
+.primary-text.state-7-default.size-11-md .primary_text-2 {
+  background-color: #262626;
+  margin-left: -16px;
+  margin-right: -16px;
+  min-width: 272px;
+}
+
+.primary-text.state-7-hover.size-11-sm .primary_text-2 {
+  color: #ffffff;
+  left: 20px;
+  position: absolute;
+  top: 16px;
+  width: 136px;
+}
+
+.primary-text.state-7-default.size-11-xl .primary_text-2 {
+  background-color: #262626;
+  margin-left: -16px;
+  margin-right: -16px;
+  min-width: 343px;
+}
+
+.primary-text.state-7-pressed.size-11-xl .primary_text-2 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 0px 16px;
+}
+
+.primary-text.size-11-sm .button_primary {
+  height: 48px;
+}
+
+.primary-text.state-7-pressed .button_primary {
+  background-color: #262626;
+  height: 48px;
+}
+
+.primary-text.state-7-hover .button_primary {
+  background-color: #56575b;
+  position: relative;
+}
+
+.primary-text.state-7-disabled .button_primary {
+  height: 48px;
+}
+
+.primary-text.size-11-xl .button_primary {
+  height: 48px;
+}
+
+.primary-text.state-7-default .button_primary {
+  background-color: #262626;
+  color: #ffffff;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  height: 48px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+}
+
+.primary-text.size-11-primary .button_primary {
+  height: 48px;
+}
+
+.primary-text.state-7-text .button_primary {
+  background-color: #262626;
+  height: 48px;
+  position: relative;
+}
+
+.primary-text.state-7-pressed.size-11-sm .button_primary {
+  position: relative;
+}
+
+.primary-text.size-11-primary.state-7-disabled .button_primary {
+  background-color: #262626;
+  position: relative;
+}
+
+.primary-text.state-7-hover.size-11-xl .button_primary {
+  min-width: 272px;
+}
+
+.primary-text.size-11-xl.state-7-disabled .button_primary {
+  background-color: #d2d2d2;
+  min-width: 272px;
+  position: relative;
+}
+
+.primary-text.size-11-sm.state-7-disabled .button_primary {
+  background-color: #262626;
+  position: relative;
+}
+
+.primary-text.state-7-pressed.size-11-primary .button_primary {
+  position: relative;
+}
+
+.primary-text.size-11-md.state-7-disabled .button_primary {
+  background-color: #262626;
+  color: #989898;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  left: 42px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.primary-text.state-7-hover.size-11-md .button_primary {
+  height: 50px;
+  left: -1px;
+  top: -1px;
+  width: 274px;
+}
+
+.primary-text.state-7-pressed.size-11-md .button_primary {
+  color: #ffffff;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  left: 42px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  white-space: nowrap;
+  width: 188px;
+}
+
+.primary-text.state-7-default.size-11-md .button_primary {
+  left: 42px;
+  width: 188px;
+}
+
+.primary-text.state-7-default.size-11-xl .button_primary {
+  left: 53px;
+  width: 237px;
+}
+
+.primary-text.state-7-pressed.size-11-xl .button_primary {
+  min-width: 272px;
+  position: relative;
+}
+
+.primary-text.size-11-md .acquista-i {
+  left: 43px;
+  top: 18px;
+}
+
+.primary-text.size-11-sm .acquista-i {
+  left: 42px;
+  top: 17px;
+}
+
+.primary-text.state-7-pressed .acquista-i {
+  color: #ffffff;
+}
+
+.primary-text.state-7-hover .acquista-i {
+  color: #ffffff;
+}
+
+.primary-text.state-7-disabled .acquista-i {
+  color: #989898;
+}
+
+.primary-text.size-11-xl .acquista-i {
+  left: 42px;
+  top: 17px;
+}
+
+.primary-text.state-7-default .acquista-i {
+  color: #ffffff;
+}
+
+.primary-text.size-11-primary .acquista-i {
+  left: 42px;
+  top: 17px;
+}
+
+.primary-text.state-7-text .acquista-i {
+  color: #ffffff;
+}
+
+.primary-text.state-7-disabled .BUTTON {
+  color: #989898;
+}
+
+.primary-text.state-7-pressed .BUTTON {
+  color: #ffffff;
+}
+
+.primary-text.state-7-hover .BUTTON {
+  color: #ffffff;
+}
+
+.primary-text.state-7-default .BUTTON {
+  color: #ffffff;
+}
+
+.primary-text.state-7-text .BUTTON {
+  color: #ffffff;
+}

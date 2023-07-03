@@ -1,0 +1,499 @@
+.state-default-size-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.state-default-size-wrapper .acquista-6 {
+  position: relative;
+  width: fit-content;
+}
+
+.state-default-size-wrapper .acquista-7 {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-default-size-wrapper .icons-stroke-plus-2 {
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}
+
+.state-default-size-wrapper .acquista-8 {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-default-size-wrapper .line-2 {
+  position: relative;
+}
+
+.state-default-size-wrapper .line-3 {
+  position: relative;
+}
+
+.state-default-size-wrapper .acquista-9 {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.state-default-size-wrapper.state-2-pressed {
+  flex-direction: column;
+}
+
+.state-default-size-wrapper.state-2-hover {
+  flex-direction: column;
+}
+
+.state-default-size-wrapper.line-up-2-true {
+  flex-direction: column;
+}
+
+.state-default-size-wrapper .size-6-sm {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .state-3-hover {
+  color: #56575b;
+}
+
+.state-default-size-wrapper .icon-1-no {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.state-default-size-wrapper .state-3-disabled {
+  color: #d2d2d2;
+}
+
+.state-default-size-wrapper .icon-1-left {
+  align-items: center;
+  display: flex;
+}
+
+.state-default-size-wrapper .size-6-xxl {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-hover {
+  gap: 8px;
+  justify-content: center;
+}
+
+.state-default-size-wrapper .size-6-xl.state-3-disabled {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-default {
+  color: #56575b;
+  gap: 10px;
+}
+
+.state-default-size-wrapper .size-6-md.state-3-disabled {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-default {
+  align-items: center;
+  color: #56575b;
+  display: flex;
+  gap: 10px;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-pressed {
+  align-items: center;
+  color: #56575b;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-hover {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.state-default-size-wrapper .state-3-default.icon-1-no {
+  color: #6f6f6f;
+}
+
+.state-default-size-wrapper .size-6-xl.icon-1-no {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.state-default-size-wrapper .state-3-disabled.icon-1-no {
+  text-align: center;
+}
+
+.state-default-size-wrapper .size-6-md.icon-1-no {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-disabled {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.state-default-size-wrapper .state-3-hover.icon-1-no {
+  text-align: center;
+}
+
+.state-default-size-wrapper .state-3-pressed.icon-1-no {
+  color: #262626;
+  text-align: center;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-pressed {
+  color: #56575b;
+  gap: 8px;
+  justify-content: center;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-pressed.size-6-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-right.size-6-xl.state-3-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-pressed.size-6-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-default.size-6-md {
+  font-size: 12px;
+  justify-content: center;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-right.state-3-default.size-6-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.size-6-md.state-3-pressed {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-right.size-6-md.state-3-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-right.size-6-md.state-3-pressed {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.size-6-md.state-3-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-default.size-6-md {
+  font-size: 12px;
+  justify-content: center;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.state-3-default.size-6-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .icon-1-left.size-6-xl.state-3-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .state-6-pressed {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+}
+
+.state-default-size-wrapper .state-6-hover {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+}
+
+.state-default-size-wrapper .state-6-disabled {
+  height: 8px;
+}
+
+.state-default-size-wrapper .state-6-default {
+  height: 1px;
+}
+
+.state-default-size-wrapper .size-9-xxl {
+  min-width: 146px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-xl {
+  min-width: 114px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-md {
+  min-width: 102px;
+}
+
+.state-default-size-wrapper .size-9-sm.icon-2-no {
+  min-width: 73px;
+}
+
+.state-default-size-wrapper .size-9-xl.icon-2-no {
+  min-width: 98px;
+}
+
+.state-default-size-wrapper .size-9-md.icon-2-no {
+  min-width: 86px;
+}
+
+.state-default-size-wrapper .icon-2-right.state-6-pressed.size-9-xl {
+  min-width: 114px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-xl.state-6-hover {
+  min-width: 114px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-sm.state-6-pressed {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-right.state-6-default.size-9-md {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-sm.state-6-hover {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-xl.state-6-disabled {
+  min-width: 8px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-md.state-6-disabled {
+  min-width: 8px;
+}
+
+.state-default-size-wrapper .icon-2-right.state-6-default.size-9-xl {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-md.state-6-hover {
+  min-width: 102px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-md.state-6-pressed {
+  min-width: 102px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-sm.state-6-pressed {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-sm.state-6-hover {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-sm.state-6-disabled {
+  min-width: 8px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-sm.state-6-disabled {
+  min-width: 8px;
+}
+
+.state-default-size-wrapper .icon-2-left.size-9-sm.state-6-default {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .icon-2-right.size-9-sm.state-6-default {
+  min-width: 89px;
+}
+
+.state-default-size-wrapper .size-10-md {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.state-default-size-wrapper .size-10-sm {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .size-10-xl {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.state-default-size-wrapper .line-up-4-true {
+  color: #262626;
+}
+
+.state-default-size-wrapper .line-up-4-false {
+  color: #d2d2d2;
+  margin-top: -1px;
+}
+
+.state-default-size-wrapper .size-10-xxl {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  line-height: 28px;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-md .acquista-7 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-sm .acquista-7 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-pressed .acquista-7 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-hover .acquista-7 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-disabled .acquista-7 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-xl .acquista-7 {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-default .acquista-7 {
+  color: #6f6f6f;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-xxl .acquista-7 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-md .acquista-8 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-sm .acquista-8 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-pressed .acquista-8 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-hover .acquista-8 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-disabled .acquista-8 {
+  color: #262626;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-xl .acquista-8 {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.state-default-size-wrapper .acquista-6.state-3-default .acquista-8 {
+  color: #6f6f6f;
+}
+
+.state-default-size-wrapper .acquista-6.size-6-xxl .acquista-8 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.state-default-size-wrapper.state-2-default .line-3 {
+  object-fit: cover;
+}
+
+.state-default-size-wrapper.line-up-2-true .line-3 {
+  height: 0;
+  min-width: 30px;
+}
+
+.state-default-size-wrapper.line-up-2-false .line-3 {
+  height: 8px;
+  min-width: 8px;
+}

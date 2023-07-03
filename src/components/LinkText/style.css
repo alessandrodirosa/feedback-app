@@ -1,0 +1,607 @@
+.link-text {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.link-text .acquista {
+  position: relative;
+  width: fit-content;
+}
+
+.link-text .text-wrapper {
+  color: #6f6f6f;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-text .icons-stroke-plus {
+  height: 8px;
+  min-width: 8px;
+  position: relative;
+}
+
+.link-text .div {
+  color: #6f6f6f;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-text .acquista-2 {
+  position: relative;
+  width: fit-content;
+}
+
+.link-text .acquista-3 {
+  color: #262626;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-text .acquista-4 {
+  color: #262626;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-text .line {
+  position: relative;
+}
+
+.link-text .img {
+  position: relative;
+}
+
+.link-text .acquista-5 {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.link-text.pressed {
+  flex-direction: column;
+}
+
+.link-text.hover {
+  flex-direction: column;
+}
+
+.link-text.line-up-true {
+  flex-direction: column;
+}
+
+.link-text .sm {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .state-pressed {
+  color: #6f6f6f;
+}
+
+.link-text .state-hover {
+  color: #6f6f6f;
+}
+
+.link-text .no {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.link-text .state-disabled {
+  color: #d2d2d2;
+}
+
+.link-text .state-default {
+  color: #6f6f6f;
+}
+
+.link-text .right {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.link-text .left {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.link-text .xxl {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.link-text .right.xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .left.xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .left.md {
+  font-size: 12px;
+  justify-content: center;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .right.md {
+  font-size: 12px;
+  justify-content: center;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .sm.state-disabled {
+  text-align: center;
+}
+
+.link-text .xl.no {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.link-text .state-disabled.no {
+  text-align: center;
+}
+
+.link-text .md.no {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.link-text .size-1-sm {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .state-0-hover {
+  color: #56575b;
+}
+
+.link-text .icon-no {
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.link-text .state-0-disabled {
+  color: #d2d2d2;
+  font-family: "GT Eesti Pro Text-Light", Helvetica;
+  font-weight: 300;
+  margin-top: -1px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.link-text .state-0-default {
+  color: #56575b;
+}
+
+.link-text .icon-left {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.link-text .size-1-xxl {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  line-height: 28px;
+}
+
+.link-text .size-1-xl.state-0-disabled {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .size-1-md.state-0-disabled {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .icon-right.state-0-pressed {
+  align-items: center;
+  color: #56575b;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.link-text .icon-right.state-0-hover {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.link-text .size-1-xl.icon-no {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .size-1-md.icon-no {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .state-0-pressed.icon-no {
+  color: #262626;
+}
+
+.link-text .icon-left.state-0-pressed {
+  color: #56575b;
+}
+
+.link-text .icon-right.state-0-pressed.size-1-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-right.size-1-xl.state-0-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.state-0-pressed.size-1-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-right.state-0-default.size-1-md {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-right.state-0-default.size-1-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.size-1-md.state-0-pressed {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-right.size-1-md.state-0-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-right.size-1-md.state-0-pressed {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.size-1-md.state-0-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.state-0-default.size-1-md {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.state-0-default.size-1-xl {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .icon-left.size-1-xl.state-0-hover {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .state-1-pressed {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+}
+
+.link-text .state-1-hover {
+  align-self: stretch;
+  height: 1px;
+  object-fit: cover;
+}
+
+.link-text .state-1-disabled {
+  height: 8px;
+}
+
+.link-text .state-1-default {
+  height: 1px;
+}
+
+.link-text .size-4-xxl {
+  min-width: 146px;
+}
+
+.link-text .icon-0-left.size-4-xl {
+  min-width: 114px;
+}
+
+.link-text .icon-0-left.size-4-md {
+  min-width: 102px;
+}
+
+.link-text .size-4-sm.icon-0-no {
+  min-width: 73px;
+}
+
+.link-text .size-4-xl.icon-0-no {
+  min-width: 98px;
+}
+
+.link-text .size-4-md.icon-0-no {
+  min-width: 86px;
+}
+
+.link-text .icon-0-right.state-1-pressed.size-4-xl {
+  min-width: 114px;
+}
+
+.link-text .icon-0-right.size-4-xl.state-1-hover {
+  min-width: 114px;
+}
+
+.link-text .icon-0-left.size-4-sm.state-1-pressed {
+  min-width: 89px;
+}
+
+.link-text .icon-0-right.state-1-default.size-4-md {
+  min-width: 89px;
+}
+
+.link-text .icon-0-right.size-4-sm.state-1-hover {
+  min-width: 89px;
+}
+
+.link-text .icon-0-right.size-4-xl.state-1-disabled {
+  min-width: 8px;
+}
+
+.link-text .icon-0-right.size-4-md.state-1-disabled {
+  min-width: 8px;
+}
+
+.link-text .icon-0-right.state-1-default.size-4-xl {
+  min-width: 89px;
+}
+
+.link-text .icon-0-right.size-4-md.state-1-hover {
+  min-width: 102px;
+}
+
+.link-text .icon-0-right.size-4-md.state-1-pressed {
+  min-width: 102px;
+}
+
+.link-text .icon-0-right.size-4-sm.state-1-pressed {
+  min-width: 89px;
+}
+
+.link-text .icon-0-left.size-4-sm.state-1-hover {
+  min-width: 89px;
+}
+
+.link-text .icon-0-left.size-4-sm.state-1-disabled {
+  min-width: 8px;
+}
+
+.link-text .icon-0-right.size-4-sm.state-1-disabled {
+  min-width: 8px;
+}
+
+.link-text .icon-0-left.size-4-sm.state-1-default {
+  min-width: 89px;
+}
+
+.link-text .icon-0-right.size-4-sm.state-1-default {
+  min-width: 89px;
+}
+
+.link-text .size-5-md {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .size-5-sm {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .size-5-xl {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .line-up-1-true {
+  color: #262626;
+}
+
+.link-text .line-up-1-false {
+  color: #d2d2d2;
+  margin-top: -1px;
+}
+
+.link-text .size-5-xxl {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  line-height: 28px;
+}
+
+.link-text .acquista.md .text-wrapper {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .acquista.xl .text-wrapper {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .acquista.sm .text-wrapper {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista.xxl .text-wrapper {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista.md .div {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .acquista.xl .div {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .acquista.sm .div {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista.xxl .div {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista-2.size-1-md .acquista-3 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .acquista-2.size-1-xl .acquista-3 {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .acquista-2.size-1-sm .acquista-3 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista-2.size-1-xxl .acquista-3 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista-2.size-1-md .acquista-4 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  line-height: 16px;
+}
+
+.link-text .acquista-2.size-1-xl .acquista-4 {
+  font-size: 16px;
+  letter-spacing: 3.2px;
+  line-height: 18px;
+}
+
+.link-text .acquista-2.size-1-sm .acquista-4 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text .acquista-2.size-1-xxl .acquista-4 {
+  font-size: 12px;
+  letter-spacing: 2.4px;
+  line-height: 14px;
+}
+
+.link-text.default .img {
+  object-fit: cover;
+}
+
+.link-text.line-up-true .img {
+  height: 0;
+  min-width: 30px;
+}
+
+.link-text.line-up-false .img {
+  height: 8px;
+  min-width: 8px;
+}

@@ -1,0 +1,37 @@
+.header-mobile {
+  background-color: #ffffff;
+  height: 72px;
+  position: relative;
+  width: 393px;
+}
+
+.header-mobile .logo-instance {
+  height: 48px !important;
+  left: 119px !important;
+  top: 12px !important;
+  width: 156px !important;
+}
+
+.header-mobile .icone-base {
+  height: 24px !important;
+  left: 10px !important;
+  position: absolute !important;
+  top: 24px !important;
+  width: 24px !important;
+}
+
+.header-mobile .icon-account-style-stroke {
+  height: 24px !important;
+  left: 359px !important;
+  position: absolute !important;
+  top: 24px !important;
+  width: 24px !important;
+}
+
+.header-mobile .wardrobe-outline {
+  height: 24px !important;
+  left: 325px !important;
+  position: absolute !important;
+  top: 24px !important;
+  width: 24px !important;
+}

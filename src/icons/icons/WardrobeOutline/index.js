@@ -1,0 +1,1 @@
+export { WardrobeOutline } from "./WardrobeOutline";

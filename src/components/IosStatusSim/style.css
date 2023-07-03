@@ -1,0 +1,39 @@
+.ios-status-sim.type-single {
+  height: 14px;
+  position: relative;
+  width: 20px;
+}
+
+.ios-status-sim .vec {
+  left: 0;
+  position: absolute;
+  width: 20px;
+}
+
+.ios-status-sim.type-flight {
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.ios-status-sim .single {
+  height: 12px;
+  top: 1px;
+}
+
+.ios-status-sim .flight {
+  height: 12px;
+  top: 1px;
+}
+
+.ios-status-sim .dual {
+  height: 12px;
+  top: 1px;
+}
+
+.ios-status-sim .none {
+  height: 3px;
+  top: 10px;
+}

@@ -1,0 +1,1 @@
+export { IconSearchStyleStroke } from "./IconSearchStyleStroke";

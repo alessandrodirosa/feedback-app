@@ -1,0 +1,1 @@
+export { IconMenuStyleStroke } from "./IconMenuStyleStroke";
