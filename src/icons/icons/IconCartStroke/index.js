@@ -1,1 +1,0 @@
-export { IconCartStroke } from "./IconCartStroke";

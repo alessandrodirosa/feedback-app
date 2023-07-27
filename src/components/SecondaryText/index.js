@@ -1,1 +1,0 @@
-export { SecondaryText } from "./SecondaryText";
